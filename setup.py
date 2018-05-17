@@ -8,7 +8,7 @@ REQUIREMENTS_FILE = os.path.join(BASE_DIR, 'requirements.txt')
 install_reqs, dep_links = fetch_requirements(REQUIREMENTS_FILE)
 
 setup(
-    name='logger',
+    name='log_suraj',
     version=0.1,
     description='using logger to store logs in /var/log folder',
     author='Suraj',
